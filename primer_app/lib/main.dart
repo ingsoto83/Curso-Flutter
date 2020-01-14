@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'contenedores.dart';
 import 'row_column.dart';
 
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RowColumn()
+      home: Contenedores()
     );
   }
 }
