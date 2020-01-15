@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key key, this.title, this.name}) : super(key: key);
 
   final String title;
+  final String name;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -28,6 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(widget.name, style: TextStyle(fontSize: 40)),
             Text(
               'You have pushed the button this many times:',
             ),

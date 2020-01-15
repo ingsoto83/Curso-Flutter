@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'contenedores.dart';
-import 'row_column.dart';
+import 'package:primer_app/contenedores.dart';
+import 'practica_2.dart';
 
 
 void main() => runApp(MyApp());
